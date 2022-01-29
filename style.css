@@ -178,6 +178,7 @@ a {
 
 .hero .text {
   color: var(--color--light);
+  margin-bottom: 3em;
 }
 
 .hero a {
