@@ -305,12 +305,9 @@ a {
     display: none;
   }
 
-  .logo {
-    display: inline;
-  }
-
   .logo__link {
     flex-basis: 40%;
+    text-align: left;
   }
 
   .nav {
