@@ -262,7 +262,8 @@ a {
 
   .header .row {
     display: flex;
-    padding: 1.25em 0 1.5em 0;
+    align-items: center;
+    padding: 1.25em 0;
   }
 
   .nav-toggle,
@@ -280,6 +281,7 @@ a {
 
   .nav {
     visibility: visible;
+    height: auto;
     flex-basis: 60%;
     font-weight: bold;
   }
@@ -288,7 +290,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5em 0;
   }
 
   .nav__list li {
